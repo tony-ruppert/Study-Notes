@@ -1,0 +1,161 @@
+CCNA
+
+Ch 1
+    Pretest
+
+        1. Which of the following protocols are examples of TCP/IP transport layer protocols? (Choose two answers.)
+            a. Ethernet
+            b. HTTP
+            c. IP
+          @ d. UDP
+            e. SMTP
+          @ f. TCP
+
+            # TCP UDP
+
+        2. Which of the following protocols are examples of TCP/IP data-link layer protocols? (Choose two answers.)
+          @ a. Ethernet
+            b. HTTP
+            c. IP
+            d. UDP
+            e. SMTP
+            f. TCP
+          @ g. PPP
+
+            # HTTP SMTP
+
+        3. The process of HTTP asking TCP to send some data and making sure that it is received correctly is an example of what?
+            a. Same-layer interaction
+          @ b. Adjacent-layer interaction
+            c. OSI model
+            d. All of these answers are correct.
+
+            # Adjacent-layer interaction
+
+        4. The process of TCP on one computer marking a TCP segment as segment 1, and the receiving computer then acknowledging the receipt of TCP segment 1 is an example of what?
+            a. Data encapsulation
+          @ b. Same-layer interaction
+            c. Adjacent-layer interaction
+            d. OSI model
+            e. All of these answers are correct.
+
+            # Same-layer interaction
+
+        5. The process of a web server adding a TCP header to the contents of a web page, followed by adding an IP header and then adding a data-link header and trailer, is an example of what?
+          @ a. Data encapsulation
+            b. Same-layer interaction
+            c. OSI model
+            d. All of these answers are correct.
+
+            # Data encapsulation
+
+        6. Which of the following terms is used specifically to identify the entity created when encapsulating data inside data-link layer headers and trailers?
+            a. Data
+            b. Chunk
+            c. Segment
+          @ d. Frame
+            e. Packet
+
+            # Frame
+
+        7. Which OSI encapsulation term can be used instead of the term frame?
+            a. Layer 1 PDU
+          @ b. Layer 2 PDU
+            c. Layer 3 PDU
+            d. Layer 5 PDU
+            e. Layer 7 PDU
+
+            # Layer 3 PDU
+
+
+
+    
+
+        TCP/IP Networking Model
+
+            TCP/IP Model
+                | Layer No.  |   Layer Name    |   Term  | Example                   |   Purpose |
+                |    5       |   Application   |         | HTTP, POP3, SMTP          |   Services to application software, many protocols    |
+                |    4       |   Transport     | Segment | TCP, UDP                  |   How do services talk to each other and data assurance   |
+                |    3       |   Network       | Packet  | IP, ICMP                  |   How does data get over entire path  |
+                |    2       |   Data link     | Frames  | Ethernet, 802.11 (Wi-Fi)  |   Ethernet vs Wireless    |
+                |    1       |   Physical      | Bits    | Ethernet, 802.11 (Wi-Fi)  |   How does info go through one type of physical link  |
+
+        Fundamentals of Ethernet LANs
+
+        1. In the LAN for a small office, some user devices connect to the LAN using a cable, while others connect using wireless technology (and no cable). Which of the following is true regarding the use of Ethernet in this LAN?
+          @ a. Only the devices that use cables are using Ethernet.
+            b. Only the devices that use wireless are using Ethernet.
+            c. Both the devices using cables and those using wireless are using Ethernet.
+            d. None of the devices are using Ethernet.
+
+            # A
+ 
+        2. Which of the following Ethernet standards defines Gigabit Ethernet over UTP cabling?
+            a. 10GBASE-T
+            b. 100BASE-T
+          @ c. 1000BASE-T
+            d. None of the other answers is correct.
+
+            # B
+ 
+        3. Which of the following is true about Ethernet crossover cables for Fast Ethernet?
+            a. Pins 1 and 2 are reversed on the other end of the cable.
+          @ b. Pins 1 and 2 on one end of the cable connect to pins 3 and 6 on the other end of the cable.
+            c. Pins 1 and 2 on one end of the cable connect to pins 3 and 4 on the other end of the cable.
+            d. The cable can be up to 1000 meters long to cross over between buildings.
+            e. None of the other answers is correct.
+
+            # C
+
+        4. Each answer lists two types of devices used in a 100BASE-T network. If these devices were connected with UTP Ethernet cables, which pairs of devices would require a straight-through cable? (Choose three answers.)
+            a. PC and router
+          @ b. PC and switch
+            c. Hub and switch
+          @ d. Router and hub
+          @ e. Wireless access point (Ethernet port) and switch
+
+            # B, C, E
+
+        5. Which of the following are advantages of using multimode fiber for an Ethernet link instead of UTP or single-mode fiber?
+            a. To achieve the longest distance possible for that single link.
+          @ b. To extend the link beyond 100 meters while keeping initial costs as low as possible.
+            c. To make use of an existing stock of laser-based SFP/SFP+ modules.
+            d. To make use of an existing stock of LED-based SFP/SFP+ modules.
+
+            # B
+
+        6. Which of the following is true about the CSMA/CD algorithm?
+            a. The algorithm never allows collisions to occur.
+          @ b. Collisions can happen, but the algorithm defines how the computers should notice a collision and how to recover.
+            c. The algorithm works with only two devices on the same Ethernet.
+            d. None of the other answers is correct.
+
+            # B
+
+        7. Which of the following is true about the Ethernet FCS field?
+            a. Ethernet uses FCS for error recovery.
+            b. It is 2 bytes long.
+          @ c. It resides in the Ethernet trailer, not the Ethernet header.
+            d. It is used for encryption.
+
+            # C
+
+        8. Which of the following are true about the format of Ethernet addresses? (Choose three answers.)
+            a. Each manufacturer puts a unique OUI code into the first 2 bytes of the address.
+          @ b. Each manufacturer puts a unique OUI code into the first 3 bytes of the address.
+            c. Each manufacturer puts a unique OUI code into the first half of the address.
+          @ d. The part of the address that holds this manufacturer’s code is called the MAC.
+          @ e. The part of the address that holds this manufacturer’s code is called the OUI.
+            f. The part of the address that holds this manufacturer’s code has no specific name.
+
+            # B, C, E
+
+        9. Which of the following terms describe Ethernet addresses that can be used to send one frame that is delivered to multiple devices on the LAN? (Choose two answers.)
+            a. Burned-in address
+            b. Unicast address
+          @ c. Broadcast address
+          @ d. Multicast address
+
+            # C, D
+
